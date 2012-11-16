@@ -1,0 +1,6 @@
+
+Export-Package: org.I0Itec.zkclient.*;version="${project.version}"
+
+Import-Package: org.apache.log4j.*;version="1.2",\
+ org.apache.zookeeper.*;version="[3.3,4.0)",\
+ *

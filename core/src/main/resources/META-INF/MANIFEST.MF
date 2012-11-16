@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Export-Package: name.pathfinder.azaleas.dubbo.demo.core;version="0.0.1
+ .BUILD-SNAPSHOT"
+Import-Bundle: com.alibaba.dubbo;version="2.5"
+Build-Jdk: 1.6.0_32
+Built-By: yaowei
+Bundle-Version: 0.0.1.BUILD-SNAPSHOT
+Tool: Bundlor 1.1.1.RELEASE
+Bundle-Name: dubbo-demo-core
+Bundle-ManifestVersion: 2
+Created-By: Maven Integration for Eclipse
+Bundle-SymbolicName: dubbo-demo-core
+Import-Package: org.slf4j;version="1.6"
+

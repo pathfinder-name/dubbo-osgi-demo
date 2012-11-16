@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ${bundle.name}
+Bundle-SymbolicName: ${bundle.symbolicName}
+Bundle-Version: ${bundle.version}
+Import-Template: name.pathfinder.azleas.virgo.demo.*;version="${bundle.version:[=.=, +1.0)}",
+ org.springframework.*;version="${spring.version:[=.=, +1.0)}",
+ org.osgi.*;version="1.0"
+Excluded-Imports: 
+ org.junit.*,
+ junit.*
+Import-Package: org.slf4j;version="1.6"
+Import-Bundle: com.alibaba.dubbo;version="2.5"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: name.pathfinder.azaleas.dubbo.demo.internal.consumer;v
+ ersion="0.0.1.BUILD-SNAPSHOT";uses:="name.pathfinder.azaleas.dubbo.de
+ mo.core",org.virgo.demo.consumer;version="0.0.1.BUILD-SNAPSHOT";uses:
+ ="junit.framework"
+Built-By: yaowei
+Tool: Bundlor 1.1.1.RELEASE
+Bundle-Name: dubbo-demo-consumer
+Created-By: Maven Integration for Eclipse
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Bundle: com.alibaba.dubbo;version="2.5"
+Bundle-Version: 0.0.1.BUILD-SNAPSHOT
+Build-Jdk: 1.6.0_32
+Bundle-ManifestVersion: 2
+Import-Package: name.pathfinder.azaleas.dubbo.demo.core,org.slf4j;vers
+ ion="1.6"
+Bundle-SymbolicName: dubbo-demo-consumer
+
