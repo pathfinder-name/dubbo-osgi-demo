@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>name.pathfinder.azleas</groupId>
+		<groupId>name.pathfinder.azaleas</groupId>
 		<artifactId>dubbo-osgi-demo</artifactId>
 		<version>0.0.1.BUILD-SNAPSHOT</version>
 	</parent>
